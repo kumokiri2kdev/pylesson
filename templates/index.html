@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container">        <!-- 全体を囲むコンテナ -->
+<div class="dropdown">
+    <div>
+        {{ lesson.question }}
+    </div>
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">解答を表示</button>
+    <div class="dropdown-menu p-4 bg-light">
+      {{ lesson.answer }}
+    </div>
+  </div>
+</div>        <!-- 全体を囲むコンテナ -->
+
+{% endblock %}
+
+</html>
