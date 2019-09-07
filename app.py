@@ -12,6 +12,8 @@ def load_data(lesson_id):
     jfile = open('data/'+ lesson_id + '.json', 'r')
     jdata = json.load(jfile)
 
+    jdata['id'] = lesson_id
+
     return jdata
 
 def get_data():
@@ -27,7 +29,6 @@ def get_data():
 
     lesson_list.remove(lesson_file)
 
-    jdata['id'] = lesson_id
     return jdata
 
 
