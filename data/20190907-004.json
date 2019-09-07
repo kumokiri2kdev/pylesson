@@ -1,0 +1,4 @@
+{
+  "question": "リスト 'list' の全ての要素を削除せよ",
+  "answer": "list.clear()"
+}

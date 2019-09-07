@@ -1,0 +1,4 @@
+{
+  "question": "フォルダ 'data' 配下の json拡張子ファイルをリストアップせよ",
+  "answer": "import os&#010;[i for i in os.listdir('data') if i.endswith('.json')]"
+}

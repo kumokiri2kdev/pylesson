@@ -4,17 +4,31 @@
 {% extends "layout.html" %}
 {% block content %}
 
-<div class="container">        <!-- 全体を囲むコンテナ -->
-<div class="dropdown">
-    <div>
-        {{ lesson.question }}
+    <script type="text/javascript">
+    $(function() {
+
+        $("#answerBtn").click(function() {
+            $("#answer").css("display", "block");
+            $("#nextBtn").css("display", "block");
+        });
+    })
+</script>
+
+<div class="border m-3">
+<h1 class="m-2">Python 練習</h1>
+    <div class="row border m-3">
+        <p class="m-3">
+            {{ lesson.question }}
+        </p>
     </div>
-    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">解答を表示</button>
-    <div class="dropdown-menu p-4 bg-light">
-      {{ lesson.answer }}
+    <div class="row m-3">
+        <div><button id="answerBtn" type="button" class="btn btn-outline-primary mr-3" style="width: 150px;">回答を表示</button></div>
+        <div><a href="/" id="nextBtn" role="button"  class="btn btn-primary" style="width: 150px; display: none;">次</a></div>
     </div>
-  </div>
-</div>        <!-- 全体を囲むコンテナ -->
+    <div class="row border m-3" id="answer" style="display: none;" >
+    <pre class="m-2"><code>{{ lesson.answer | safe }}</code></pre>
+    </div>
+</div>
 
 {% endblock %}
 

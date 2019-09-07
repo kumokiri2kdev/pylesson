@@ -1,0 +1,4 @@
+{
+  "question": "0 〜 9 までが順番に格納される１０個の list を作成せよ?",
+  "answer": "list = [i for i in range(10)]"
+}
