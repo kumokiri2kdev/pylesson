@@ -10,6 +10,7 @@
         $("#answerBtn").click(function() {
             $("#answer").css("display", "block");
             $("#nextBtn").css("display", "block");
+            $("#answerBtn").css("display", "none");
         });
     })
 </script>
@@ -23,10 +24,12 @@
     </div>
     <div class="row m-3">
         <div><button id="answerBtn" type="button" class="btn btn-outline-primary mr-3" style="width: 150px;">回答を表示</button></div>
-        <div><a href="/" id="nextBtn" role="button"  class="btn btn-primary" style="width: 150px; display: none;">次</a></div>
     </div>
     <div class="row border m-3" id="answer" style="display: none;" >
     <pre class="m-2"><code>{{ lesson.answer | safe }}</code></pre>
+    </div>
+    <div class="row m-3">
+        <div><a href="/" id="nextBtn" role="button"  class="btn btn-primary" style="width: 150px; display: none;">次</a></div>
     </div>
     <blockquote class="blockquote text-right m-3">
         <footer class="blockquote-footer">{{ lesson.id }}</footer>
