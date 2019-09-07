@@ -28,6 +28,9 @@
     <div class="row border m-3" id="answer" style="display: none;" >
     <pre class="m-2"><code>{{ lesson.answer | safe }}</code></pre>
     </div>
+    <blockquote class="blockquote text-right m-3">
+        <footer class="blockquote-footer">{{ lesson.id }}</footer>
+    </blockquote>
 </div>
 
 {% endblock %}

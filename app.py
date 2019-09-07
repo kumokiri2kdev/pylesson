@@ -27,6 +27,7 @@ def get_data():
 
     lesson_list.remove(lesson_file)
 
+    jdata['id'] = lesson_id
     return jdata
 
 
