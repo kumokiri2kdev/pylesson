@@ -1,4 +1,4 @@
 {
   "question": "リスト 'list = [0, 1, 2]' から ２番目の要素を削除せよ",
-  "answer": "list.pop(1)"
+  "answer": "list = [0, 1, 2]&#010;&#010;list.pop(1)"
 }
