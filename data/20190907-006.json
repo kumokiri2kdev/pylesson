@@ -1,0 +1,4 @@
+{
+  "question": "0〜9 までの10個の配列から、偶数のみ取り出せ。",
+  "answer": "list = [i for i in ragen(10)]&#010;&#010;[i for i in list if i%2==0]"
+}

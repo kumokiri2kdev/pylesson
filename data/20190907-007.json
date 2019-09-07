@@ -1,0 +1,4 @@
+{
+  "question": "0〜9 までの10個の配列 を 偶数は 'even' 機数は 'odd' に入れ換えよ。",
+  "answer": "list = [i for i in range(10)]&#010;&#010;['even' if i%2==0 else 'odd' for i in list]"
+}
