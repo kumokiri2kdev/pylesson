@@ -1,4 +1,4 @@
 {
   "question": "",
-  "answer": ""
+  "answer": "&#010;"
 }
