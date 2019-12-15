@@ -1,0 +1,5 @@
+{
+  "question": "[0, 1, ... 8, 9] の９個の ndarray  を 3 x 3 の ndarray に変換せよ",
+  "answer": "import numpy as np&#010;&#010;list = np.array(range(9))&#010;list = list.reshape((3, 3))",
+  "tags":["numpy"]
+}

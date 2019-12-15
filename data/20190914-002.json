@@ -1,0 +1,4 @@
+{
+  "question": "cv2 を使用して、画像 img.png を半分のサイズにリサイズせよ",
+  "answer": "import cv2&#010;&#010;img = cv2.imread('img.png')&#010;height, width,_ = np.shape(img)&#010;img_resized = cv2.resize(img,(int(width/2), int(height/2)))&#010;&#010;cv2.imwrite('resized.png',img_resized)"
+}

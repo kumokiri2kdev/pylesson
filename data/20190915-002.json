@@ -1,0 +1,5 @@
+{
+  "question": "全要素を0で初期化した 2 x 3 の ndarray 配列を作成せよ",
+  "answer": "import numpy as np&#010;&#010;list = np.zeros((2, 3))",
+  "tags":["numpy"]
+}

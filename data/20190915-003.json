@@ -1,0 +1,5 @@
+{
+  "question": "float 型の ndarray [1., 2., 3.] を int 型の ndarray に変換せよ",
+  "answer": "import numpy as np&#010;&#010;list = np.array([1., 2., 3.])&#010;list = list.astype(np.int)",
+  "tags":["numpy"]
+}

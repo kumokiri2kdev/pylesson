@@ -1,0 +1,4 @@
+{
+  "question": "path = './pic/pw01sde1006201904071120190922-F0/test_0001.png' からファイル名のみを抜き出せ",
+  "answer": "import os&#010;&#010;path.split(os.sep)[-1]"
+}

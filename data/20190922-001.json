@@ -1,0 +1,4 @@
+{
+  "question": "文字列 'abcd' を、バイト列に変換せよ'",
+  "answer": "'abcd'.encode()"
+}

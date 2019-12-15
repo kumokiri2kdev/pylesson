@@ -1,0 +1,4 @@
+{
+  "question": "glob を使用して、フォルダ 'data' 配下の json拡張子ファイルをリストアップせよ",
+  "answer": "import glob&#010;&#010;glob.glob('*.json')"
+}

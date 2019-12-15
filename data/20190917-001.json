@@ -1,0 +1,5 @@
+{
+  "question": "val が True の時に、'True' そうでは無いときに 'False' を返す三項演算を実装せよ",
+  "answer": "'True' if val == True else 'False'",
+  "tags":["numpy"]
+}
